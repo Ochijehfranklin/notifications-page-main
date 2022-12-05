@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <!--<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   -->
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+   <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  </head>
+ <body>
+   <div class="container">
+     <header>
+       <div class="top">
+         <h2>Notifications </h2> 
+         <span id="top-number">3</span>
+       </div>
+       <p id="all-read">Mark all as read</p>
+      </header>
+      <main>
+       <div class="notifications" id="mark">
+         <img src="assets/images/avatar-mark-webber.webp" alt="display-picture">
+         <div class="user">
+           <p class="activity">
+           <b>Mark Webber</b> reacted to your recent post <strong>My first tournament today!</strong><span class="dot"></span></p>
+        
+           <p class="time"><small>1m ago</small></p> 
+         </div>
+       </div>
+
+       <div class="notifications" id="angela">
+         <img src="assets/images/avatar-angela-gray.webp" alt="display-picture">
+          <div class="user">
+           <p class="activity">
+           <b class="gray">Angela Gray</b> followed you <span class="dot"></span></p>
+           <p class="time"><small>5m ago</small></p> 
+         </div>
+       </div> 
+
+       <div class="notifications" id="jacob">
+         <img src="assets/images/avatar-jacob-thompson.webp" alt="display-picture">
+         <div class="user">
+           <p class="activity">
+           <b>Jacob Thompson</b>
+           has joined your group <span class="club">Chess Club</span><span class="dot"></span></p>
+           <p class="time"><small>1 day ago</small></p> 
+         </div>
+       </div>
+  
+       <div class="notification" id="rizky">
+         <div class="reply">
+           <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="display-picture"> 
+           <div class="user">
+             <p class="activity">
+             <b>Rizky Hasanuddin</b> sent you a private message</p>
+             <p class="time"><small>5 days ago</small></p> 
+            </div>
+         </div>
+       </div>
+       <div >
+         <fieldset class="rizky">
+           <p class="rizky-comment"> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+           I'm already having lots of fun and improving my game.</p>
+         </fieldset>
+       </div>
+
+       <div class="notification" id="kimberly">
+         <img src="assets/images/avatar-kimberly-smith.webp" alt="display-picture"> 
+         <div class="user">
+           <p class="activity" id="smith">
+           <b>Kimberly Smith</b> commented on your picture</p>
+           <p class="time"><small>1 week ago</small></p> 
+         </div>
+         <img src="assets/images/image-chess.webp" alt="girl-playong-chess" class="chess-board">
+       </div>
+
+       <div class="notification" id="nathan">
+         <img src="assets/images/avatar-nathan-peterson.webp" alt="display-picture">
+         <div class="user">
+           <p class="activity">
+           <b>Nathan Peterson</b> reacted to your recent post <span class="strategy">5 end-game strategies to increase your win rate</span></p>
+           <p class="time"><small>2 weeks ago</small></p> 
+         </div>
+       </div>
+
+       <div class="notification" id="anna">
+         <img src="assets/images/avatar-anna-kim.webp" alt="display-picture">
+         <div class="user">
+          <p class="activity">
+          <b>Anna Kim</b> left the group <span class="club">Chess Club</span></p>
+          <p class="time"><small>2 weeks ago</small></p> 
+         </div>
+        </div>
+      </main>
+   </div>
+
+   <script src="js/index.js"></script>
+  <!--
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+     Coded by <a href="#">Ochijeh Franklin</a>.
+   </div>-->
+ </body>
+</html>
+
